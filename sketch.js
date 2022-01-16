@@ -26,8 +26,9 @@ function Walker() {
 
   this.display = function() {
     // Draw Walker as circle
-    fill(255);
+    fill(211, 84, 0);
     rect(this.pos.x, this.pos.y, 48, 48);
+    strokeWeight(6);
     stroke(212, 172, 13);
   }
 }
